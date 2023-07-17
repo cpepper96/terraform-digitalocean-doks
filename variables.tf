@@ -20,7 +20,7 @@ variable "node_size" {
 
 variable "auto_scale" {
   description = "Enable auto-scaling of the number of nodes in the node pool within the given min/max range"
-  type        = string
+  type        = bool
 }
 
 variable "min_nodes" {
@@ -31,4 +31,9 @@ variable "min_nodes" {
 variable "max_nodes" {
   description = "If auto-scaling is enabled, this represents the maximum number of nodes that the node pool can be scaled up to"
   type        = number
+}
+
+variable "do_token" {
+  description = "Digital Ocean personal access token"
+  type        = string
 }
