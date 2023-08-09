@@ -6,7 +6,7 @@ This repo contains a simple module to deploy a [DOKS](https://docs.digitalocean.
 
 To deploy this module you'll need to install [Terraform](https://docs.digitalocean.com/products/kubernetes/), have a Digital Ocean account with a [personal access token](https://docs.digitalocean.com/reference/api/create-personal-access-token/), and install [doctl](https://docs.digitalocean.com/reference/doctl/how-to/install/).
 
-You'll then need to create a terraform.tfvars files where you can declare your input variables.
+For learning purposes I'd recommend forking this repo and then cloning your forked repo locally. Within the same directory as your freshly cloned repo, create a terraform.tfvars files where you can declare your input variables.
 
 Example terraform.tfvars file:
 ```
